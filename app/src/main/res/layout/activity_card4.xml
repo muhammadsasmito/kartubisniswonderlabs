@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.sasmito.wonderlabsbusiness.FirstActivity"
+    android:background="@color/colorSky"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/button_nav"
+        android:drawableLeft="@drawable/ic_info_outline_black_24dp"
+        android:padding="10dp"
+        android:text="About us"
+        android:drawablePadding="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="infous"/>
+
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="120dp"
+        android:src="@drawable/awan"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        />
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="120dp"
+        android:src="@drawable/awan"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:layout_alignParentRight="true"
+        android:scaleX="-1"
+        />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/thx"
+        android:id="@+id/ivBack"
+        android:layout_marginBottom="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:src="@drawable/title"
+        android:id="@+id/ivTitle"
+        android:layout_alignTop="@+id/ivBack"
+        android:layout_marginTop="90dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/lineBottom"
+            android:background="@color/colorBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp"
+            >
+
+            <TextView
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sosial"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingBottom="10dp">
+
+
+                <Button
+                    android:id="@+id/btn_fb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_fb"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorBottom"
+                    android:textStyle="bold"
+                    android:drawablePadding="10dp"
+                    android:text="Facebook"
+                    android:textSize="10sp"
+                    android:drawableLeft="@drawable/fb"
+                    android:onClick="facebook"
+                    />
+                <Button
+                    android:id="@+id/btn_tw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_tw"
+                    android:padding="10dp"
+                    android:textSize="10sp"
+                    android:text="twitter"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/tw"
+                    android:textColor="@color/colorBottom"
+                    android:textStyle="bold"
+                    android:drawablePadding="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:onClick="twitter"
+                    />
+                <Button
+                    android:id="@+id/btn_ln"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_ln"
+                    android:padding="10dp"
+                    android:text="Linked in"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ln"
+                    android:textColor="@color/colorBottom"
+                    android:textStyle="bold"
+                    android:drawablePadding="10dp"
+                    android:onClick="linkedin"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

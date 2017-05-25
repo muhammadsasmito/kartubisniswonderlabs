@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wonderlabs Business</string>
+    <string name="app_code">Hire Indonesia\'s Best Technical Talents</string>
+    <string name="go_in">Let\'s get started</string>
+    <string name="string1">Lorem ipsum</string>
+    <string name="about">About</string>
+    <string name="aboutString">Wonderlabs is a VC-backed platform allowing you to hire the best designers and engineers from Indonesia\'s rapidly urbanizing 250 million population. Using AI, we are revolutionising project management, recruitment and human resource management.</string>
+    <string name="location">Address</string>
+    <string name="locationAdd">Jalan Urip Sumoharjo, GK III/1092, Kepuh, Gondokusuman, Yogyakarta, 55222</string>
+    <string name="sosial">Follow us on:</string>
+    <string name="created">Made with love by Sash Design</string>
+
+</resources>

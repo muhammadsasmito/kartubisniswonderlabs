@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.sasmito.wonderlabsbusiness.FirstActivity"
+    android:background="@color/colorSpace"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="125dp"
+                android:src="@drawable/rocket"
+                android:id="@+id/ivBack"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textSize="40sp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="normal"
+                android:layout_alignBottom="@id/ivTitle"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="130dp"
+                android:textColor="@color/colorBottom"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/titlewhite"
+                android:id="@+id/ivTitle"
+                android:layout_centerHorizontal="true"
+                android:layout_alignBottom="@+id/ivBack"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lineBottom"
+            android:background="@color/colorBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp"
+            >
+
+
+            <TextView
+                android:padding="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutString"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
